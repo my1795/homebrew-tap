@@ -10,7 +10,7 @@ class ConductorCommander < Formula
 
   def install
     libexec.install Dir["*"]
-    bin.install_symlink "#{libexec}/bin/cnd.sh" => "cnd"
+    bin.install_symlink "#{libexec}/cnd" => "cnd"
   end
 
   test do
