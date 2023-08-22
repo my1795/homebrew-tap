@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.7.0 at 2023-08-22T22:55:58.217865+03:00
+# Generated with JReleaser 1.7.0 at 2023-08-22T23:07:44.121353+03:00
 class ConductorCommander < Formula
   desc "Netflix Conductor CLi"
   homepage "https://github.com/my1795/conductor-commander"
