@@ -15,6 +15,6 @@ class ConductorCommander < Formula
 
   test do
     output = shell_output("#{bin}/cnd --version")
-    assert_match "1.0.1", output
+    assert_match "conductor-commander 1.0", output
   end
 end
