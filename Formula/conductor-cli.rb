@@ -9,7 +9,7 @@ class ConductorCli < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w")
+    system "go", "build", *std_go_args(ldflags: "-s -w"), "-o", "conductor-cli"
     bin.install "conductor-cli"
   end
 
